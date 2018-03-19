@@ -7,7 +7,7 @@ import java.awt.event.*;
 import java.rmi.server.ExportException;
 import java.security.Key;
 
-public class Main extends JFrame /*implements KeyListener*/{
+public class Main extends JFrame {
 
 
     private javax.swing.JButton jButton1;
@@ -298,23 +298,4 @@ public class Main extends JFrame /*implements KeyListener*/{
         });
     }
 
-/*
-    @Override
-    public void keyTyped(KeyEvent e) {
-
-    }
-
-    @Override
-    public void keyPressed(KeyEvent e) {
-
-    }
-
-    @Override
-    public void keyReleased(KeyEvent event) {
-        Object source = event.getSource();
-        int keyCode = event.getKeyCode();
-        if (source == jTextArea1 && keyCode == KeyEvent.VK_UP) {
-            jTextField1.setText(Double.toString(lastResult));
-        }
-    }*/
 }
